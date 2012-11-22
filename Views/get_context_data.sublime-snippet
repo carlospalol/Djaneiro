@@ -1,0 +1,10 @@
+<!-- Is it possible to set the Class name automatically? -->
+<snippet>
+    <content><![CDATA[def get_context_data(self, **kwargs):
+    context = super(${1:CLASSNAME}, self).get_context_data(**kwargs)
+
+    return context]]></content>
+    <tabTrigger>get_context_data</tabTrigger>
+    <scope>source.python</scope>
+    <description>CBV Context</description>
+</snippet>
